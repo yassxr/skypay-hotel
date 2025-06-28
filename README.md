@@ -62,9 +62,8 @@ service.printAllUsers();
 
 ### 1/- Suppose we put all the functions inside the same service. Is this the recommended approach ? Please explain.
 
-**No, because this would go against several design principles:**
+No, because this would go against several design principles:
 
-#### Problems with Current Approach:
 - **Single Responsibility Principle Violation**: One service handles user, room, and booking operations
 - **Tight Coupling**: All operations are interdependent
 - **Scalability Issues**: Difficult to scale individual components
